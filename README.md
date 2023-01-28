@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+Expense Tracker Application with React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Introduction:
 
-## Available Scripts
+This documentation is for an expense tracker application built with React.js, a JavaScript library for building user interfaces. The application allows users to keep track of their expenses. For now you can't store expenses because the application does not running a database. 
 
-In the project directory, you can run:
+Features:
 
-### `npm start`
+Add new expense entries with the following information: date, title and amount.
+You can see your expenses through every year.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Future Features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I'm planning to add a database so you can store your expenses. 
+Also i want to give the ability to user to make a personal account.
 
-### `npm test`
+Installation:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install Node.js and npm (Node Package Manager) on your machine.
+Clone the repository from GitHub.
+In the project directory, run "npm install" to install all necessary dependencies.
+Run "npm start" to start the application in development mode.
+The application will be available at "http://localhost:3000" in your web browser.
 
-### `npm run build`
+Usage:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To add a new expense entry, click on the "Add New Expense" button.
+Fill in the form with the expense information and click "Add Expense".
+You can filter your expenses by year, just click the year button.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Conclusion:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This expense tracker application is a simple and easy-to-use tool for keeping track of expenses. It is built with React.js and provides a user-friendly interface for managing expense entries. With its features, it can help users to have a better overview of their expenses and make better financial decisions.
